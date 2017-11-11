@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <project path="device/htc/endeavoru" name="DevUt/android_device_htc_endeavoru" remote ="github" revision ="twrp3.1" />
+  <project path="kernel/htc/endeavoru" name="DevUt/android_kernel_htc_endeavoru" remote ="github" revision ="cm-14.0" />
+  <project path="device/htc/tegra3-common" name="DevUt/android_device_htc_tegra3-common" revision ="MM" remote ="github" />
+    <project path="vendor/htc" name="DevUt/proprietary_vendor_htc" revision ="cm-13.0" remote ="github" />
+</manifest>
