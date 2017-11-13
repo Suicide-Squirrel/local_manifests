@@ -9,5 +9,6 @@
   <project name="Suicide-Squirrel/android_device_lge_g4-common" path="device/lge/g4-common" remote="github" revision="aokp" />
   <project name="Suicide-Squirrel/Titan-Kernel-LG-G4" path="kernel/lge/titan" remote="github" revision="aosp" />
   <project name="Suicide-Squirrel/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+  <remove-project path="system/core" name="AOKP/system_core" groups="pdk" />
   <project name="Suicide-Squirrel/system_core" path="system/core" remote="github" revision="aokp" />
 </manifest>
