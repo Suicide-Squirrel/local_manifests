@@ -11,4 +11,6 @@
   <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
   <project name="Suicide-Squirrel/vendor_rom" path="vendor/cm" remote="github" revision="cm" />
+  <remove-project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" />
+  <project name="AOSPA/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="nougat-mr2" />
 </manifest>
