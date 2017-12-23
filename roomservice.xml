@@ -4,7 +4,7 @@
   <project name="Suicide-Squirrel/Titan-Kernel-LG-G4" path="kernel/lge/titan" remote="github" revision="aosp-o" />
   <project name="hardware_sony_timekeep" path="hardware/sony/timekeep" remote="aoscp" revision="oreo-mr1-release" />
   <project name="Suicide-Squirrel/android_device_lge_g4-common" path="device/lge/g4-common" remote="github" revision="aoscp-o" />
-  <project name="device_qcom_common" path="device/qcom/common" remote="aoscp" revision="oreo-release" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="aoscp" revision="oreo-mr1-release" />
   <project name="Suicide-Squirrel/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="oreo" />
   <project name="device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="aoscp" revision="oreo-release" />
   <project name="device_oneplus_common" path="device/oneplus/common" remote="aoscp" revision="oreo-release" />
