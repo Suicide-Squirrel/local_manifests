@@ -5,7 +5,7 @@
   <project name="Suicide-Squirrel/android_device_lge_h815" path="device/lge/h815" remote="github" revision="aoscp" />
   <project name="hardware_sony_timekeep" path="hardware/sony/timekeep" remote="aoscp" revision="nougat-mr2" />
   <project name="Suicide-Squirrel/android_device_lge_g4-common" path="device/lge/g4-common" remote="github" revision="aoscp" />
-  <project name="Suicide-Squirrel/hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="nougat-mr2" />
-  <project name="Suicide-Squirrel/device_qcom_common" path="device/qcom/common" remote="github" revision="aoscp" />
   <project name="Suicide-Squirrel/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="aoscp" revision="nougat-mr2" />
+  <project name="hardware_sony_thermanager" path="hardware/sony/thermanager" remote="aoscp" revision="nougat-mr2" />
 </manifest>
