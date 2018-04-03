@@ -3,6 +3,7 @@
   <project name="Suicide-Squirrel/android_device_lge_h811" path="device/lge/h811" remote="github" revision="aoscp" />
   <project name="Suicide-Squirrel/Titan-Kernel-LG-G4" path="kernel/lge/titan" remote="github" revision="aosp" />
   <project name="Suicide-Squirrel/android_device_lge_h815" path="device/lge/h815" remote="github" revision="aoscp" />
+  <project name="Suicide-Squirrel/android_device_lge_h815-UsU" path="device/lge/h815_usu" remote="github" revision="aoscp" />
   <project name="hardware_sony_timekeep" path="hardware/sony/timekeep" remote="aoscp" revision="nougat-mr2" />
   <project name="Suicide-Squirrel/android_device_lge_g4-common" path="device/lge/g4-common" remote="github" revision="aoscp" />
   <project name="Suicide-Squirrel/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
