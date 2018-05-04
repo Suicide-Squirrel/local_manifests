@@ -24,7 +24,7 @@
   <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="oreo-mr1-release_synced" />
 
   <!-- DEVICE TREES -->
-  <project name="android_device_lge_g4-common-LOS" path="device/lge/g4-common" remote="suicide" />
+  <project name="android_device_lge_g4-common-LOS" path="device/lge/g4-common" remote="suicide" revision="lineage-15.1" />
   <project name="android_device_lge_h811" path="device/lge/h811" remote="suicide" />
   <!--project name="android_device_lge_h810" path="device/lge/h810_usu" remote="suicide" />-->
   <!--project name="android_device_lge_h812" path="device/lge/h812_usu" remote="suicide" />-->
