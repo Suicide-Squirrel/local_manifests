@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="thepiguy0"
-           fetch="https://github.com/thepiguy0/" />
-
   <remote  name="lineage"
            fetch="https://github.com/lineageOS/" />
 
@@ -13,18 +10,17 @@
   
   <remote  name="suicide"
            fetch="https://github.com/Suicide-Squirrel/"
-           revision="los-15.1" />
+           revision="lineage-15.1" />
 
  
   <!-- REMOVALS (must be at TOP) -->
 
 
   <!-- KERNEL -->
-  <!--project name="android_kernel_lge_msm8992" path="kernel/lge/msm8992" remote="lineage" />-->
   <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="oreo-mr1-release_synced" />
 
   <!-- DEVICE TREES -->
-  <project name="android_device_lge_g4-common-LOS" path="device/lge/g4-common" remote="suicide" revision="lineage-15.1" />
+  <project name="android_device_lge_g4-common-LOS" path="device/lge/g4-common" remote="suicide" />
   <project name="android_device_lge_h811" path="device/lge/h811" remote="suicide" />
   <!--project name="android_device_lge_h810" path="device/lge/h810_usu" remote="suicide" />-->
   <!--project name="android_device_lge_h812" path="device/lge/h812_usu" remote="suicide" />-->
