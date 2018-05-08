@@ -14,7 +14,7 @@
 
  
   <!-- REMOVALS (must be at TOP) -->
-
+  <!--remove-project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
 
   <!-- KERNEL -->
   <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="oreo-mr1-release_synced" />
