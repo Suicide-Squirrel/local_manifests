@@ -17,7 +17,7 @@
   <!--remove-project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
 
   <!-- KERNEL -->
-  <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="oreo-mr1-release_synced" />
+  <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="aoscp" revision="parfait-release" />
 
   <!-- DEVICE TREES -->
   <project name="android_device_lge_g4-common-LOS" path="device/lge/g4-common" remote="suicide" />
