@@ -2,7 +2,8 @@
 <manifest>
 
   <remote  name="lineage"
-           fetch="https://github.com/lineageOS/" />
+           fetch="https://github.com/lineageOS/"
+           revision="lineage-15.1" />
 
   <remote  name="aoscp"
            fetch="https://github.com/CypherOS/"
