@@ -12,7 +12,7 @@
   <project name="CypherOS/device_oneplus_common" path="device/oneplus/common" remote="github" revision="oreo-mr1-release" />
   <!--project name="android_device_lge_h810" path="device/lge/h810_usu" remote="suicide" />-->
   <project name="CypherOS/device_lge_h811" path="device/lge/h811" remote="github" />
-  <!--project name="android_device_lge_h812" path="device/lge/h812_usu" remote="suicide" />-->
+  <project name="android_device_lge_h812" path="device/lge/h812_usu" remote="suicide" />
   <project name="android_device_lge_h815-UsU" path="device/lge/h815_usu" remote="suicide" />
   <project name="CypherOS/device_lge_h815" path="device/lge/h815" remote="github" />
   <!--project name="android_device_lge_vs986" path="device/lge/vs986_usu" remote="suicide" />-->
