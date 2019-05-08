@@ -13,7 +13,7 @@
   <project name="LineageOS/android_device_lge_common" path="device/lge/common" remote="github" />
 
   <!-- DEVICE TREES -->
-  <project name="Suicide-Squirrel/android_device_lge_g4-common-LOS" path="device/lge/g4-common" remote="github" revision="cm-14.1" />
+  <project name="Suicide-Squirrel/android_device_lge_g4-common" path="device/lge/g4-common" remote="github" revision="cm-14.1" />
   <project name="Suicide-Squirrel/android_device_lge_h811" path="device/lge/h811" remote="github" revision="cm-14.1" />
   <!--project name="Suicide-Squirrel/android_device_lge_h810" path="device/lge/h810_usu" remote="github" revision="los-14.1" />-->
   <!--project name="Suicide-Squirrel/android_device_lge_h812" path="device/lge/h812_usu" remote="github" revision="los-14.1" />-->
