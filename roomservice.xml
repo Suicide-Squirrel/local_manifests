@@ -21,7 +21,7 @@
   <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="android-9.0" />
 
   <!-- DEVICE TREES -->
-  <project name="android_device_lge_g4-common-LOS" path="device/lge/g4-common" remote="suicide" />
+  <project name="android_device_lge_g4-common" path="device/lge/g4-common" remote="suicide" />
   <project name="android_device_lge_h815-UsU" path="device/lge/h815_usu" remote="suicide" />
 
 <!--
