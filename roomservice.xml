@@ -13,14 +13,16 @@
            revision="lineage-16.0" />
 
  
-  <!-- REMOVALS (must be at TOP) -->
-  <!--remove-project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
+  <!-- REMOVALS (must be at TOP)
+  #####################################################-->
   <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
 
-  <!-- KERNEL -->
+  <!-- KERNEL
+  #####################################################-->
   <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="android-9.0" />
 
-  <!-- DEVICE TREES -->
+  <!-- DEVICE TREES
+  #####################################################-->
   <project name="android_device_lge_g4-common" path="device/lge/g4-common" remote="suicide" />
   <project name="android_device_lge_h815-UsU" path="device/lge/h815_usu" remote="suicide" />
 
@@ -33,7 +35,8 @@
   <project name="android_device_lge_vs986" path="device/lge/vs986_usu" remote="suicide" />
 -->
 
-  <!-- LOS STUFF -->
+  <!-- LOS STUFF
+  #####################################################-->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" />
   <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" remote="lineage" />
@@ -41,7 +44,8 @@
   <project name="android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="lineage" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage"/>  
 
-  <!-- MISC -->
+  <!-- MISC
+  #####################################################-->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="suicide" revision="android-9.0" />
   <!-- backup solution without google deps -->
   <project path="packages/apps/Backup" name="stevesoltys/backup" remote="github" revision="master" />
