@@ -24,16 +24,12 @@
   <!-- DEVICE TREES
   #####################################################-->
   <project name="android_device_lge_g4-common" path="device/lge/g4-common" remote="suicide" />
-  <project name="android_device_lge_h815-UsU" path="device/lge/h815_usu" remote="suicide" />
-
-<!--
   <project name="android_device_lge_h811" path="device/lge/h811" remote="suicide" />
   <project name="android_device_lge_h810" path="device/lge/h810_usu" remote="suicide" />
   <project name="android_device_lge_h812" path="device/lge/h812_usu" remote="suicide" />
   <project name="android_device_lge_h815" path="device/lge/h815" remote="suicide" />
   <project name="android_device_lge_h815-UsU" path="device/lge/h815_usu" remote="suicide" />
   <project name="android_device_lge_vs986" path="device/lge/vs986_usu" remote="suicide" />
--->
 
   <!-- LOS STUFF
   #####################################################-->
