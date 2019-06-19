@@ -14,7 +14,7 @@
 
  
   <!-- REMOVALS (must be at TOP) -->
-  <!--remove-project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
+  <remove-project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
 
   <!-- KERNEL -->
   <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="oreo-mr1-release_synced" />
@@ -36,8 +36,10 @@
   <project name="android_device_lge_common" path="device/lge/common" remote="lineage" />
   <project name="android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="lineage" />
 
+  <!-- Broadcom BT voice FIX -->
+  <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="suicide" />
+
   <!-- MISC -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="suicide" revision="oreo-mr1-release_synced" />
-
 
 </manifest>
