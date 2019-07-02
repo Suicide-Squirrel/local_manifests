@@ -17,6 +17,7 @@
   #####################################################-->
   <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
   <remove-project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
+  <remove-project path="build/make" name="LineageOS/android_build" groups="pdk" />
 
   <!-- KERNEL
   #####################################################-->
@@ -39,6 +40,18 @@
   <!-- Broadcom BT voice FIX
   #####################################################-->
   <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="suicide" />
+
+  <!-- RIL patch
+  #####################################################-->
+  <project path="build/make" name="android_build" groups="pdk" remote="suicide" revision="lineage-16.0_synced" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
 
   <!-- MISC
   #####################################################-->
