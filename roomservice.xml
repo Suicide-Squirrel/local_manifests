@@ -16,7 +16,6 @@
   <!-- REMOVALS (must be at TOP)
   #####################################################-->
   <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
-  <remove-project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
   <remove-project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="pdk" />
 
   <!-- KERNEL
@@ -30,16 +29,12 @@
 
   <!-- LOS STUFF
   #####################################################-->
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" />
-  <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" remote="lineage" />
-  <project name="android_device_lge_common" path="device/lge/common" remote="lineage" />
-  <project name="android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="lineage" />
-  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage"/>  
+  <!--<project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage"/>  -->
 
   <!-- Broadcom BT voice FIX
   #####################################################-->
-  <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="suicide" />
+  <!--project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="suicide" />-->
 
   <!-- power HAL patch
   #####################################################-->
