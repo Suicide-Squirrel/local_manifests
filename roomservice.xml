@@ -30,7 +30,7 @@
   <!-- LOS STUFF
   #####################################################-->
   <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" />
-  <!--<project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage"/>  -->
+  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage"/>
 
   <!-- Broadcom BT voice FIX
   #####################################################-->
