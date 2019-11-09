@@ -20,11 +20,11 @@
 
   <!-- KERNEL
   #####################################################-->
-  <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="android-9.0_sfx" />
+  <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="android-10.0_sfx" />
 
   <!-- DEVICE TREES
   #####################################################-->
-  <project name="android_device_lge_g4-common" path="device/lge/g4-common" remote="suicide"/>
+  <project name="android_device_lge_g4-common" path="device/lge/g4-common" remote="suicide" revision="lineage-17.0_bringup" />
   <project name="android_device_lge_g4" path="device/lge/g4" remote="suicide" />
 
   <!-- LOS STUFF
