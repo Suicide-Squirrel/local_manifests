@@ -5,7 +5,7 @@
 
   <!-- KERNEL -->
   <!--project name="LineageOS/android_kernel_lge_msm8992" path="kernel/lge/msm8992" remote="github" />-->
-  <project name="Suicide-Squirrel/Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="github" revision="aosp" />
+  <project name="Suicide-Squirrel/Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="github" revision="android-7.1" />
 
   <!-- GENERIC -->
   <project name="Suicide-Squirrel/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
