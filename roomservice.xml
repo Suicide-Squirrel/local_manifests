@@ -46,6 +46,6 @@
   <!-- backup solution without google deps -->
   <project path="packages/apps/Backup" name="stevesoltys/backup" remote="github" revision="master" />
   <!-- FDroid -->
-  <project name="cryptomilk/android_vendor_fdroid" path="vendor/fdroid" remote="github" revision="master" />
+  <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="master" />
 
 </manifest>
