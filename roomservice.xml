@@ -16,7 +16,7 @@
   <!-- REMOVALS (must be at TOP)
   #####################################################-->
   <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
-  <remove-project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="pdk" />
+  <!--remove-project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="pdk" />-->
 
   <!-- KERNEL
   #####################################################-->
@@ -38,7 +38,7 @@
 
   <!-- power HAL patch
   #####################################################-->
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="suicide" revision="lineage-16.0_synced" />
+  <!--project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="suicide" revision="lineage-16.0_synced" />-->
 
   <!-- MISC
   #####################################################-->
