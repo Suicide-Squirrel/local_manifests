@@ -4,19 +4,15 @@
   <remote  name="lineage"
            fetch="https://github.com/lineageOS/" />
 
-  <remote  name="aoscp"
-           fetch="https://github.com/CypherOS/"
-           revision="poundcake-release" />
-  
   <remote  name="suicide"
            fetch="ssh://git@github.com/Suicide-Squirrel/"
-           revision="lineage-16.0" />
+           revision="eos-pie_custom" />
 
  
   <!-- REMOVALS (must be at TOP)
   #####################################################-->
   <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
-  <remove-project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="pdk" />
+  <!--remove-project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="pdk" />-->
 
   <!-- KERNEL
   #####################################################-->
@@ -38,14 +34,15 @@
 
   <!-- power HAL patch
   #####################################################-->
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="suicide" revision="lineage-16.0_synced" />
+  <!--project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="suicide" revision="lineage-16.0_synced" />-->
 
   <!-- MISC
   #####################################################-->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="suicide" revision="android-9.0" />
   <!-- backup solution without google deps -->
-  <project path="packages/apps/Backup" name="stevesoltys/backup" remote="github" revision="master" />
+  <!--project path="packages/apps/Seedvault" name="stevesoltys/seedvault" remote="github" revision="master" />-->
+  <!--project path="packages/apps/Seedvault" name="stevesoltys/seedvault-prebuilt" remote="github" revision="master" />-->
   <!-- FDroid -->
-  <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="master" />
+  <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="eos" />
 
 </manifest>
