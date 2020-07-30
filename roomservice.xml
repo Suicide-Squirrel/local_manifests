@@ -44,5 +44,6 @@
   <!--project path="packages/apps/Seedvault" name="stevesoltys/seedvault-prebuilt" remote="github" revision="master" />-->
   <!-- FDroid -->
   <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="eos" />
+  <project path="vendor/e" name="steadfasterX/android_vendor_e" remote="e" revision="main" />
 
 </manifest>
