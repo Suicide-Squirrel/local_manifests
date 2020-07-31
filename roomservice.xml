@@ -45,5 +45,6 @@
   <!-- FDroid -->
   <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="eos" />
   <project path="vendor/e" name="steadfasterX/android_vendor_e" remote="e" revision="main" />
+  <project path="vendor/e-mod" name="steadfasterX/android_vendor_e-mod" remote="github" revision="eos-pie_custom" />
 
 </manifest>
