@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- REMOVALS (must be at TOP)
+  #####################################################-->
+  <!--N/A-->
+
+  <!-- KERNEL
+  #####################################################-->
+  <project name="jaubin/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-15.1" />
+
+  <!-- DEVICE TREES
+  #####################################################-->
+  <project name="nailyk-fr/android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="github" revision="lineage-15.1" />
+  <project name="nailyk-fr/android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="github" revision="lineage-15.1" />
+
+  <!-- LOS STUFF
+  #####################################################-->
+  <project name="nailyk-fr/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
+  <project name="nailyk-fr/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-15.1" />
+  <project name="nailyk-fr/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-15.1" />
+  <project name="nailyk-fr/android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+
+  <!-- MISC
+  #####################################################-->
+  <!-- Vendor -->
+  <project name="nailyk-fr/android_vendor_samsung" path="vendor/samsung/" remote="github" revision="lineage-15.1" />
+
+</manifest>
