@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- REMOVALS (must be at TOP)
+  #####################################################-->
+  <!--N/A-->
+
+  <!-- MISC
+  #####################################################-->
+  <!-- FDroid -->
+  <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="master" />
+
+  <!-- /e/ -->
+  <project path="vendor/e" name="steadfasterX/android_vendor_e" remote="e" revision="main" />
+  <project path="vendor/e-mod" name="steadfasterX/android_vendor_e-mod" remote="github" revision="eos-pie_custom" />
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="lineage"
+           fetch="https://github.com/lineageOS/" />
+
+  <remote  name="suicide"
+           fetch="ssh://git@github.com/Suicide-Squirrel/"
+           revision="lineage-15.1" />
+
+</manifest>
