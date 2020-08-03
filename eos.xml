@@ -12,6 +12,6 @@
 
   <!-- /e/ -->
   <project path="vendor/e" name="steadfasterX/android_vendor_e" remote="e" revision="main" />
-  <project path="vendor/e-mod" name="steadfasterX/android_vendor_e-mod" remote="github" revision="eos-pie_custom" />
+  <project path="vendor/e-mod" name="steadfasterX/android_vendor_e-mod" remote="github" revision="eos-oreo_custom" />
 
 </manifest>
