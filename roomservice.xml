@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="lineage"
-           fetch="https://github.com/lineageOS/" />
-
-  <remote  name="suicide"
-           fetch="ssh://git@github.com/Suicide-Squirrel/"
-           revision="eos-pie_custom" />
-
- 
   <!-- REMOVALS (must be at TOP)
   #####################################################-->
   <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
@@ -39,12 +31,5 @@
   <!-- MISC
   #####################################################-->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="suicide" revision="android-9.0" />
-  <!-- backup solution without google deps -->
-  <!--project path="packages/apps/Seedvault" name="stevesoltys/seedvault" remote="github" revision="master" />-->
-  <!--project path="packages/apps/Seedvault" name="stevesoltys/seedvault-prebuilt" remote="github" revision="master" />-->
-  <!-- FDroid -->
-  <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="eos" />
-  <project path="vendor/e" name="steadfasterX/android_vendor_e" remote="e" revision="main" />
-  <project path="vendor/e-mod" name="steadfasterX/android_vendor_e-mod" remote="github" revision="eos-pie_custom" />
 
 </manifest>

@@ -1,0 +1,37 @@
+<manifest>
+
+    <remote
+        name="lineage"
+        fetch="https://github.com/lineageOS/"
+        revision="lineage-16.0" />
+
+    <remote  name="suicide"
+           fetch="ssh://git@github.com/Suicide-Squirrel/"
+           revision="eos-pie_custom" />
+
+    <!-- Requires to create an account and setup ssh access -->
+    <!--
+    <remote
+        name="codebbr"
+        fetch="ssh://code.binbash.rocks:22443/mva-volte"
+        revision="lineage-15.1" />
+
+    -->
+    <!-- special jenkins access -->
+    <remote
+        name="codebbr"
+        fetch="ssh://code.binbash.rocks:22227/mva-volte"
+        revision="lineage-16.0" />
+
+    <!--
+        Enable the following for anonymous acccess and
+        disable the ssh one above, of course -->
+
+    <!--
+    <remote
+        name="codebbr"
+        fetch="https://code.binbash.rocks:8443/MVA-VoLTE"
+        revision="lineage-15.1" />
+    -->
+
+</manifest>
