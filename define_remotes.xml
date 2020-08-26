@@ -9,6 +9,10 @@
            fetch="ssh://git@github.com/Suicide-Squirrel/"
            revision="eos-pie_custom" />
 
+    <remote  name="gfour"
+           fetch="ssh://git@github.com/LGgFour/"
+           revision="eos-pie_custom" />
+
     <!-- Requires to create an account and setup ssh access -->
     <!--
     <remote

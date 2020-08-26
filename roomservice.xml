@@ -8,7 +8,7 @@
 
   <!-- KERNEL
   #####################################################-->
-  <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="android-9.0_sfx" />
+  <project name="kernel_lge_msm8992" path="kernel/lge/msm8992" remote="gfour" revision="android-9.0" />
 
   <!-- DEVICE TREES
   #####################################################-->
