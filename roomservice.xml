@@ -12,6 +12,12 @@
            fetch="ssh://git@github.com/Suicide-Squirrel/"
            revision="lineage-16.0" />
 
+  <remote name="fdroid"
+          fetch="https://gitlab.com/fdroid/" />
+  
+  <remote name="sfX"
+	 fetch="ssh://git@github.com/sfX-Android" />
+  
  
   <!-- REMOVALS (must be at TOP)
   #####################################################-->
@@ -43,9 +49,9 @@
   <!-- MISC
   #####################################################-->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="suicide" revision="android-9.0" />
-  <!-- backup solution without google deps -->
-  <!--project path="packages/apps/Backup" name="stevesoltys/backup" remote="github" revision="master" />-->
+  
   <!-- FDroid -->
-  <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="master" />
+  <project name="android_vendor_fdroid" path="vendor/fdroid" remote="sfX" revision="main" />
+  <project path="packages/apps/F-DroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="master" />
 
 </manifest>
