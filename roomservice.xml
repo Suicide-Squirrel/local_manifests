@@ -22,7 +22,6 @@
   <!-- REMOVALS (must be at TOP)
   #####################################################-->
   <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
-  <!--remove-project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="pdk" />-->
 
   <!-- KERNEL
   #####################################################-->
@@ -38,20 +37,14 @@
   <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage"/>
 
-  <!-- Broadcom BT voice FIX
-  #####################################################-->
-  <!--project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="suicide" />-->
-
-  <!-- power HAL patch
-  #####################################################-->
-  <!--project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="suicide" revision="lineage-16.0_synced" />-->
-
   <!-- MISC
   #####################################################-->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="suicide" revision="android-9.0" />
-  
+
   <!-- FDroid -->
-  <project name="android_vendor_fdroid" path="vendor/fdroid" remote="sfX" revision="main" />
   <project path="packages/apps/F-DroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="master" />
+
+  <!-- extendrom -->
+  <project path="vendor/extendrom" name="android_vendor_extendrom" remote="sfX" revision="main" />
 
 </manifest>
