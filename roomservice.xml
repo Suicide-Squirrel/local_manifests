@@ -22,6 +22,7 @@
   <!-- REMOVALS (must be at TOP)
   #####################################################-->
   <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
+  <remove-project name="LineageOS/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt"/>
 
   <!-- KERNEL
   #####################################################-->
