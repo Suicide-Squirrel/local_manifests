@@ -1,7 +1,0 @@
-<manifest>
-
-     <remote name="sfX" fetch="https://github.com/sfX-Android/" />
-
-    <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
-
-</manifest>

@@ -4,9 +4,9 @@
   <remote  name="lineage"
            fetch="https://github.com/lineageOS/" />
 
-  <remote  name="aoscp"
-           fetch="https://github.com/CypherOS/"
-           revision="poundcake-release" />
+  <remote  name="gfour"
+           fetch="https://github.com/LGgFour/"
+           revision="lineage-16.0" />
   
   <remote  name="suicide"
            fetch="ssh://git@github.com/Suicide-Squirrel/"
@@ -25,7 +25,7 @@
 
   <!-- KERNEL
   #####################################################-->
-  <project name="Titan-Kernel-LG-G4" path="kernel/lge/msm8992" remote="suicide" revision="android-9.0_sfx" />
+  <project name="kernel_lge_msm8992" path="kernel/lge/msm8992" remote="gfour" revision="android-9.0" />
 
   <!-- DEVICE TREES
   #####################################################-->
